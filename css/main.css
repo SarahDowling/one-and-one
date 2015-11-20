@@ -1,3 +1,22 @@
 .bg-color{
 	background-color: #C0C0C0;
 }
+
+.bg-image-full{
+	background-image: url(http://placehold.it/1440x750);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: fill;
+}
+
+body{
+	font-family: 'Dosis', sans-serif;
+}
+
+h2{
+	font-weight: 200;
+}
+
+h3{
+	font-weight: 400;
+}
