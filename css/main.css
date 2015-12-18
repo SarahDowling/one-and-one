@@ -1,25 +1,12 @@
-.bg-color{
-	background-color: #C0C0C0;
-}
-
-.bg-image-full{
-	background-image: url("http://placehold.it/4000x1000");
-	background-repeat: no-repeat;
-	background-position: center center;
-}
-
 body{
 font-family: 'Raleway', sans-serif;
 }
-
 h2{
 	font-weight: 200;
 }
-
 h3{
 	font-weight: 500;
 }
-
 h5{
 	font-weight: 700;
 }
@@ -49,14 +36,50 @@ h5{
 }
 
 
+.bg-image-full-index{
+	background-image: url("../img/index-banner.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.bg-image-full-feature{
+	background-image: url("../img/features-banner.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.bg-image-full-plans{
+	background-image: url("../img/plans-banner.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.bg-image-full-signup{
+	background-image: url("../img/signup-banner.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+.bg-image-full-thanks{
+	background-image: url("../img/thanks-banner.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+}
+
+
 .btn:hover {
   background-color: #5c001b;
   color: #fff;
   border-color: #5c001b;
 }
-
 .btn-red-background:hover {
   background-color: #fff;
   color: #5c001b;
   border-color: #5c001b;
 }
+
+.width-icons{
+	width: 35%;
+}
+
