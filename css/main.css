@@ -12,12 +12,7 @@
          url('raleway-bold-webfont.svg#ralewaybold') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
-
 @font-face {
     font-family: 'ralewaymedium';
     src: url('raleway-medium-webfont.eot');
@@ -28,12 +23,7 @@
          url('raleway-medium-webfont.svg#ralewaymedium') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
-
 @font-face {
     font-family: 'ralewayextralight';
     src: url('raleway-extralight-webfont.eot');
@@ -44,20 +34,25 @@
          url('raleway-extralight-webfont.svg#ralewayextralight') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
+
+
+
 
 body{
 font-family: 'Raleway', sans-serif;
 }
 h2{
 	font-weight: 200;
+	margin: 0;
 }
 h3{
 	font-weight: 500;
+	margin: 0;
 }
 h5{
 	font-weight: 700;
+	margin: 0;
 }
 
 .bold{
@@ -189,6 +184,11 @@ nav li{
 nav a{
 	width: 100%;
 	display: block;
+}
+
+header img{
+	width:6rem;
+	margin: auto;
 }
 
 @media only screen and (min-width:38em){
