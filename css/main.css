@@ -32,6 +32,8 @@ h5{
 }
 .white-border{
 	border-color: white;
+	border-width: 3px;
+	border-style: solid;
 }
 .white-background{
 	background-color: white;
@@ -104,9 +106,49 @@ input{
 	border-radius: 10px;
 	font-size: 1rem;
 	padding: 1em;
+	width: 100%;
 }
 button{
 	cursor: pointer;
 	border: none;
 	background-color: white;
+}
+
+input+label.plan-label{
+	display: block;
+}
+
+input[type="radio"]{
+	width: auto;
+}
+
+.signupform{
+	max-width: 35em;
+	margin: 0 auto;
+}
+
+
+nav ol{
+	text-align: center;
+}
+
+nav li{
+	width: 50%;
+	float: left;
+}
+
+nav a{
+	width: 100%;
+	display: block;
+}
+
+@media only screen and (min-width:38em){
+	nav li{
+		width: 25%;
+	}
+	nav ol{
+		float: right;
+		width: 100%;
+		max-width: 32em;
+	}
 }
