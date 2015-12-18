@@ -27,9 +27,11 @@ h5{
 .red-background{
 	background-color: #5c001b;
 }
-
 .red-words{
 	color: #5c001b;
+}
+.red-border{
+	border-color: #5c001b;
 }
 
 .yellow-background{
@@ -39,11 +41,22 @@ h5{
 .white-words{
 	color: white;
 }
-
 .white-border{
 	border-color: white;
 }
+.white-background{
+	background-color: white;
+}
 
-.red-border{
-	border-color: #5c001b;
+
+.btn:hover {
+  background-color: #5c001b;
+  color: #fff;
+  border-color: #5c001b;
+}
+
+.btn-red-background:hover {
+  background-color: #fff;
+  color: #5c001b;
+  border-color: #5c001b;
 }
