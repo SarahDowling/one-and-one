@@ -50,6 +50,9 @@ h3{
 	font-weight: 500;
 	margin: 0;
 }
+h4{
+	margin: 0;
+}
 h5{
 	font-weight: 700;
 	margin: 0;
@@ -125,13 +128,17 @@ h5{
 .btn-red-background:hover {
   background-color: #fff;
   color: #5c001b;
-  border-color: #5c001b;
+  border-color: white;
 }
 
 .width-icons{
-	width: 35%;
+	width: 70%;
 }
-
+.max-40{
+	max-width: 40%;
+	margin-left: auto;
+		margin-right: auto;
+}
 
 
 fieldset{
@@ -191,6 +198,13 @@ header img{
 	margin: auto;
 }
 
+
+
+
+
+
+
+
 @media only screen and (min-width:38em){
 	nav li{
 		width: 25%;
@@ -201,3 +215,5 @@ header img{
 		max-width: 32em;
 	}
 }
+
+
